@@ -23,7 +23,7 @@ import re
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_chroma import Chroma
 from flask import g
-###**********************************************************ERM packages******************************************************
+##**********************************************************ERM packages******************************************************
 from langchain.retrievers import EnsembleRetriever
 from sqlalchemy import create_engine
 from langchain.utilities import SQLDatabase
